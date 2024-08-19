@@ -1,15 +1,50 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>
-		First Web Page
-	</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #4a90e2;
+            margin: 0;
+        }
+        p {
+            font-size: 1.5rem;
+            color: #555;
+            margin: 10px 0;
+        }
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 0.8rem;
+            color: #888;
+        }
+    </style>
 </head>
-
 <body>
-	<h1>Hello World!</h1>
-	<h1>This website running on Azure</h1>
+    <div class="container">
+        <h1>Welcome, Niket!</h1>
+        <p>We're glad to have you here.</p>
+    </div>
+    <div class="footer">
+        <p>Created with ❤️ by Niket</p>
+    </div>
 </body>
-
 </html>
